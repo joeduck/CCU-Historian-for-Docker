@@ -12,6 +12,6 @@ ENV CONFIG_TYPE=CCU2
 
 EXPOSE 80 2011
 
-VOLUME ["/database","/opt/ccu-historian/config"]
+VOLUME ["/database","/opt/ccu-historian"]
 
 ENTRYPOINT ["/opt/ccu-historian/start.sh"]
